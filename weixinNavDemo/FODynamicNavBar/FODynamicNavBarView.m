@@ -213,13 +213,15 @@
                 self.lock = NO;
 
                 if (self.scrollDistanceBlock && !self.otherScrollLock) {
-//                    self.otherScrollLock = YES;
-                    [UIView animateWithDuration:0.1 animations:^{
-                        self.scrollDistanceBlock(0);
-                    } completion:^(BOOL finished) {
-//                           self.scrollDistanceBlock(0);
-                        self.otherScrollLock = NO;
-                    }];
+                    self.otherScrollLock = YES;
+                    self.scrollDistanceBlock(0);
+                    self.otherScrollLock = NO;
+//                    [UIView animateWithDuration:0.1 animations:^{
+//                        self.scrollDistanceBlock(0);
+//                    } completion:^(BOOL finished) {
+////                           self.scrollDistanceBlock(0);
+//                        self.otherScrollLock = NO;
+//                    }];
                 }
             }
             return;
