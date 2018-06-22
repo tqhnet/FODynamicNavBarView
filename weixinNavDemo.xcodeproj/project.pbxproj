@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5681F420DC9061000C8CD5 /* FODynamicNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5681F120DC9061000C8CD5 /* FODynamicNavBarView.m */; };
+		0D5681F520DC9061000C8CD5 /* UIViewController+FONavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5681F320DC9061000C8CD5 /* UIViewController+FONavBar.m */; };
+		0D5FE51D20D1FEB700A44C1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FE51C20D1FEB700A44C1B /* AppDelegate.m */; };
+		0D5FE52020D1FEB700A44C1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FE51F20D1FEB700A44C1B /* ViewController.m */; };
+		0D5FE52320D1FEB700A44C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE52120D1FEB700A44C1B /* Main.storyboard */; };
+		0D5FE52520D1FEB700A44C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE52420D1FEB700A44C1B /* Assets.xcassets */; };
+		0D5FE52820D1FEB700A44C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE52620D1FEB700A44C1B /* LaunchScreen.storyboard */; };
+		0D5FE52B20D1FEB700A44C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FE52A20D1FEB700A44C1B /* main.m */; };
+		0D5FE53320D1FF5C00A44C1B /* CircleOfFriendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FE53220D1FF5C00A44C1B /* CircleOfFriendsController.m */; };
+		0D5FE53A20D20E2000A44C1B /* home_public_btn_back_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE53820D20E2000A44C1B /* home_public_btn_back_default@3x.png */; };
+		0D5FE53B20D20E2000A44C1B /* home_public_btn_back_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE53920D20E2000A44C1B /* home_public_btn_back_default@2x.png */; };
+		0D5FE53E20D20E5E00A44C1B /* home_public_btn_notificationset_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE53C20D20E5E00A44C1B /* home_public_btn_notificationset_default@2x.png */; };
+		0D5FE53F20D20E5E00A44C1B /* home_public_btn_notificationset_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5FE53D20D20E5E00A44C1B /* home_public_btn_notificationset_default@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D5681F020DC9061000C8CD5 /* FODynamicNavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FODynamicNavBarView.h; sourceTree = "<group>"; };
+		0D5681F120DC9061000C8CD5 /* FODynamicNavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FODynamicNavBarView.m; sourceTree = "<group>"; };
+		0D5681F220DC9061000C8CD5 /* UIViewController+FONavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FONavBar.h"; sourceTree = "<group>"; };
+		0D5681F320DC9061000C8CD5 /* UIViewController+FONavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FONavBar.m"; sourceTree = "<group>"; };
+		0D5FE51820D1FEB700A44C1B /* weixinNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixinNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5FE51B20D1FEB700A44C1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D5FE51C20D1FEB700A44C1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D5FE51E20D1FEB700A44C1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D5FE51F20D1FEB700A44C1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D5FE52220D1FEB700A44C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D5FE52420D1FEB700A44C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D5FE52720D1FEB700A44C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D5FE52920D1FEB700A44C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5FE52A20D1FEB700A44C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D5FE53120D1FF5C00A44C1B /* CircleOfFriendsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendsController.h; sourceTree = "<group>"; };
+		0D5FE53220D1FF5C00A44C1B /* CircleOfFriendsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendsController.m; sourceTree = "<group>"; };
+		0D5FE53820D20E2000A44C1B /* home_public_btn_back_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_public_btn_back_default@3x.png"; sourceTree = "<group>"; };
+		0D5FE53920D20E2000A44C1B /* home_public_btn_back_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_public_btn_back_default@2x.png"; sourceTree = "<group>"; };
+		0D5FE53C20D20E5E00A44C1B /* home_public_btn_notificationset_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_public_btn_notificationset_default@2x.png"; sourceTree = "<group>"; };
+		0D5FE53D20D20E5E00A44C1B /* home_public_btn_notificationset_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_public_btn_notificationset_default@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5FE51520D1FEB700A44C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5681EF20DC9061000C8CD5 /* FODynamicNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				0D5681F020DC9061000C8CD5 /* FODynamicNavBarView.h */,
+				0D5681F120DC9061000C8CD5 /* FODynamicNavBarView.m */,
+				0D5681F220DC9061000C8CD5 /* UIViewController+FONavBar.h */,
+				0D5681F320DC9061000C8CD5 /* UIViewController+FONavBar.m */,
+			);
+			path = FODynamicNavBar;
+			sourceTree = "<group>";
+		};
+		0D5FE50F20D1FEB700A44C1B = {
+			isa = PBXGroup;
+			children = (
+				0D5FE51A20D1FEB700A44C1B /* weixinNavDemo */,
+				0D5FE51920D1FEB700A44C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5FE51920D1FEB700A44C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5FE51820D1FEB700A44C1B /* weixinNavDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5FE51A20D1FEB700A44C1B /* weixinNavDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0D5681EF20DC9061000C8CD5 /* FODynamicNavBar */,
+				0D5FE51B20D1FEB700A44C1B /* AppDelegate.h */,
+				0D5FE51C20D1FEB700A44C1B /* AppDelegate.m */,
+				0D5FE51E20D1FEB700A44C1B /* ViewController.h */,
+				0D5FE51F20D1FEB700A44C1B /* ViewController.m */,
+				0D5FE53120D1FF5C00A44C1B /* CircleOfFriendsController.h */,
+				0D5FE53220D1FF5C00A44C1B /* CircleOfFriendsController.m */,
+				0D5FE53920D20E2000A44C1B /* home_public_btn_back_default@2x.png */,
+				0D5FE53820D20E2000A44C1B /* home_public_btn_back_default@3x.png */,
+				0D5FE53C20D20E5E00A44C1B /* home_public_btn_notificationset_default@2x.png */,
+				0D5FE53D20D20E5E00A44C1B /* home_public_btn_notificationset_default@3x.png */,
+				0D5FE52120D1FEB700A44C1B /* Main.storyboard */,
+				0D5FE52420D1FEB700A44C1B /* Assets.xcassets */,
+				0D5FE52620D1FEB700A44C1B /* LaunchScreen.storyboard */,
+				0D5FE52920D1FEB700A44C1B /* Info.plist */,
+				0D5FE52A20D1FEB700A44C1B /* main.m */,
+			);
+			path = weixinNavDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5FE51720D1FEB700A44C1B /* weixinNavDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5FE52E20D1FEB700A44C1B /* Build configuration list for PBXNativeTarget "weixinNavDemo" */;
+			buildPhases = (
+				0D5FE51420D1FEB700A44C1B /* Sources */,
+				0D5FE51520D1FEB700A44C1B /* Frameworks */,
+				0D5FE51620D1FEB700A44C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixinNavDemo;
+			productName = weixinNavDemo;
+			productReference = 0D5FE51820D1FEB700A44C1B /* weixinNavDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5FE51020D1FEB700A44C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tqh;
+				TargetAttributes = {
+					0D5FE51720D1FEB700A44C1B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D5FE51320D1FEB700A44C1B /* Build configuration list for PBXProject "weixinNavDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D5FE50F20D1FEB700A44C1B;
+			productRefGroup = 0D5FE51920D1FEB700A44C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5FE51720D1FEB700A44C1B /* weixinNavDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5FE51620D1FEB700A44C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5FE52820D1FEB700A44C1B /* LaunchScreen.storyboard in Resources */,
+				0D5FE53B20D20E2000A44C1B /* home_public_btn_back_default@2x.png in Resources */,
+				0D5FE52520D1FEB700A44C1B /* Assets.xcassets in Resources */,
+				0D5FE53E20D20E5E00A44C1B /* home_public_btn_notificationset_default@2x.png in Resources */,
+				0D5FE53F20D20E5E00A44C1B /* home_public_btn_notificationset_default@3x.png in Resources */,
+				0D5FE52320D1FEB700A44C1B /* Main.storyboard in Resources */,
+				0D5FE53A20D20E2000A44C1B /* home_public_btn_back_default@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5FE51420D1FEB700A44C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5FE53320D1FF5C00A44C1B /* CircleOfFriendsController.m in Sources */,
+				0D5681F520DC9061000C8CD5 /* UIViewController+FONavBar.m in Sources */,
+				0D5FE52020D1FEB700A44C1B /* ViewController.m in Sources */,
+				0D5FE52B20D1FEB700A44C1B /* main.m in Sources */,
+				0D5FE51D20D1FEB700A44C1B /* AppDelegate.m in Sources */,
+				0D5681F420DC9061000C8CD5 /* FODynamicNavBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D5FE52120D1FEB700A44C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5FE52220D1FEB700A44C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D5FE52620D1FEB700A44C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5FE52720D1FEB700A44C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D5FE52C20D1FEB700A44C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D5FE52D20D1FEB700A44C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D5FE52F20D1FEB700A44C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YNK8EZZR8;
+				INFOPLIST_FILE = weixinNavDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.weixinNavDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D5FE53020D1FEB700A44C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YNK8EZZR8;
+				INFOPLIST_FILE = weixinNavDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.weixinNavDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5FE51320D1FEB700A44C1B /* Build configuration list for PBXProject "weixinNavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5FE52C20D1FEB700A44C1B /* Debug */,
+				0D5FE52D20D1FEB700A44C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5FE52E20D1FEB700A44C1B /* Build configuration list for PBXNativeTarget "weixinNavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5FE52F20D1FEB700A44C1B /* Debug */,
+				0D5FE53020D1FEB700A44C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D5FE51020D1FEB700A44C1B /* Project object */;
+}
